@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SnackBar_Example' do
+  pod 'SnackBar', :path => '../'
+
+  target 'SnackBar_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
