@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SnackBar (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - SnackBar (from `../`)
+
+EXTERNAL SOURCES:
+  SnackBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SnackBar: 006815c03b76b6caa80886df4186c547aad76354
+
+PODFILE CHECKSUM: 537362cb996f57546c5b2823302e99e6cfd8a09c
+
+COCOAPODS: 1.2.0
