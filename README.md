@@ -22,7 +22,7 @@ pod 'SnackBar'
 
 ## Author
 
-marinofelipe, bk_felipe.marino@ciatech.com.br
+marinofelipe
 
 ## License
 
