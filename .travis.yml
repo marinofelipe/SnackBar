@@ -2,13 +2,20 @@
 # * http://www.objc.io/issue-6/travis-ci.html
 # * https://github.com/supermarin/xcpretty#usage
 
-osx_image: xcode7.3
-language: objective-c
+osx_image: xcode9.0
+language: swift
 # cache: cocoapods
 # podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
+before_install:
+rvm use $RVM_RUBY_VERSION
+- gem install cocoapods # Since Travis is not always on latest version
+- gem install slather
+- pod install --project-directory=Example
+
+install: bundle install --without=documentation --path ../travis_bundle_dir
+
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SnackBar.xcworkspace -scheme SnackBar-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
+
+after_success: slather
