@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		28F415F613B3CEFB6A21BECB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		28F415F613B3CEFB6A21BECB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51011D695DB4E5E1EBE7FA95 /* Pods-SnackBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBar_Example/Pods-SnackBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SnackBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +42,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F297EB6ED1573645430369E /* Pods-SnackBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBar_Tests/Pods-SnackBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9018D90132C06BF9773C8E0A /* Pods_SnackBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnackBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4371FF315CB0BDC9FE096F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B4371FF315CB0BDC9FE096F0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C4C6D19C00518522A1D264D7 /* Pods-SnackBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBar_Tests/Pods-SnackBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C551BD46C3F6B4E8462C6BAF /* Pods_SnackBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnackBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C742921C9D42A27EDDEF4894 /* Pods-SnackBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnackBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SnackBar_Example/Pods-SnackBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D6837939F77E293F4BF75C36 /* SnackBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SnackBar.podspec; path = ../SnackBar.podspec; sourceTree = "<group>"; };
+		D6837939F77E293F4BF75C36 /* SnackBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SnackBar.podspec; path = ../SnackBar.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = X9MK4PBNUW;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = X9MK4PBNUW;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -508,10 +510,11 @@
 			baseConfigurationReference = 51011D695DB4E5E1EBE7FA95 /* Pods-SnackBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				INFOPLIST_FILE = SnackBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = pod.snackbar.felipemarino.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -523,10 +526,11 @@
 			baseConfigurationReference = C742921C9D42A27EDDEF4894 /* Pods-SnackBar_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				INFOPLIST_FILE = SnackBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = pod.snackbar.felipemarino.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -537,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C4C6D19C00518522A1D264D7 /* Pods-SnackBar_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -551,6 +556,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackBar_Example.app/SnackBar_Example";
 			};
 			name = Debug;
 		};
@@ -558,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6F297EB6ED1573645430369E /* Pods-SnackBar_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = X9MK4PBNUW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -568,6 +575,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnackBar_Example.app/SnackBar_Example";
 			};
 			name = Release;
 		};
