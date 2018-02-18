@@ -1,9 +1,12 @@
 # .slather.yml
 
-
-coverage_service: coveralls
+# ci_service: travis_ci
+# coverage_service: coveralls
 xcodeproj: Example/SnackBar.xcodeproj
 workspace: Example/SnackBar.xcworkspace
-scheme: SnackBar_Tests
+scheme: SnackBar-Example
+source_directory: SnackBar/Classes
+# binary_basename: SnackBar
+ignore:	
   - ExamplePodCode/*
   - ProjectTestsGroup/*
