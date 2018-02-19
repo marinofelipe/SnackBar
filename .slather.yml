@@ -6,7 +6,7 @@ xcodeproj: Example/SnackBar.xcodeproj
 workspace: Example/SnackBar.xcworkspace
 scheme: SnackBar-Example
 source_directory: SnackBar/Classes
-binary_basename: SnackBar
+# binary_basename: SnackBar
 ignore:	
   - ExamplePodCode/*
   - ProjectTestsGroup/*

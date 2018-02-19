@@ -27,7 +27,7 @@ install:
 - pod install --project-directory=Example
 
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SnackBar.xcworkspace -scheme SnackBar-Example -destination 'platform=iOS Simulator,name=iPhone 7,OS=latest' -sdk iphonesimulator11.0 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/SnackBar.xcworkspace -scheme SnackBar-Example ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
 
-after_success: slather coverage -c -s -t --ignore '../*' -b ${TRAVIS_BUILD_DIR}/myDerivedData --verbose
+after_success: slather
