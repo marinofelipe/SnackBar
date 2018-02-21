@@ -1,4 +1,4 @@
-# SnackBar
+# Pod sample with Travis CI, Slather and Coveralls
 
 [![CI Status](http://img.shields.io/travis/marinofelipe/SnackBar.svg?style=flat)](https://travis-ci.org/marinofelipe/SnackBar)
 [![Coverage Status](https://coveralls.io/repos/github/marinofelipe/SnackBar/badge.svg?branch=master)](https://coveralls.io/github/marinofelipe/SnackBar?branch=master)
@@ -18,7 +18,7 @@ SnackBar is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SnackBar'
+pod ''
 ```
 
 ## Author
@@ -27,4 +27,4 @@ marinofelipe
 
 ## License
 
-SnackBar is available under the MIT license. See the LICENSE file for more info.
+"" is available under the MIT license. See the LICENSE file for more info.
